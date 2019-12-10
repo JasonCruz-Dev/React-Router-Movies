@@ -20,11 +20,11 @@ const Movie = props => {
       })
       .catch(
         error => {
-          console.error(error);
+          console.error(error, "Whoops! Go Back!!");
         },
         [id]
       );
-  }, [id]);
+  }, []);
 
   // Uncomment this only when you have moved on to the stretch goals
   // const saveMovie = () => {
