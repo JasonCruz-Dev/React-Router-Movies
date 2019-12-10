@@ -20,7 +20,7 @@ const Movie = props => {
       })
       .catch(
         error => {
-          console.error(error, "Whoops! Go Back!!");
+          console.error("Whoops! Go Back!!", error);
         },
         [id]
       );
